@@ -32,6 +32,9 @@
 - Machine Learning Model Performance:
 
 ## Accuracy:
+
+Machine Learning Model Performance:
+
 | Algorithm | Accuracy |
 | ----------- | ----------- |
 | K Neighbors Classifier | 0.7244905637958691 |
@@ -42,7 +45,8 @@
 | MLP Classifier | 0.765427649167277 |
 
 
-- Deep Learning Model Performance:
+Deep Learning Model Performance:
+
 | Algorithm | Loss | Accuracy |
 | ----------- | ----------- | ----------- |
 | Neural Network | 0.04266935586929321 | 0.9847416281700134 |
