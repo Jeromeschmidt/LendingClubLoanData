@@ -44,6 +44,7 @@
 
 - Deep Learning Model Performance:
 | Algorithm | Loss | Accuracy |
+| ----------- | ----------- | ----------- |
 | Neural Network | 0.04266935586929321 | 0.9847416281700134 |
 
 ## Results:
