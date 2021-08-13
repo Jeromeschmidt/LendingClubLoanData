@@ -58,7 +58,8 @@
         - Since not all of our features are one-hot encoded
 
 
-## Accuracy Comparison:
+## Metric Comparison:
+*Update Notes:* Additional metrics included in Google Colab.
 
 #### Machine Learning Model Accuracies:
 
