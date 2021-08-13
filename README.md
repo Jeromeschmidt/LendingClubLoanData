@@ -47,16 +47,15 @@
     - Random Forest Classifier
     - MLP Classifier
 
+- Neural Network Design Choices:
+    - Activation Function: RELU
+        - Fast training and not prone to vanishing gradients
 
-### Neural Network Design Choices:
-Activation Function: RELU
-- Fast training and not prone to vanishing gradients
+    - Optimizer: Adam
+        - Fast optimizer to find local minimum
 
-Optimizer: Adam
-- Fast optimizer to find local minimum
-
-Loss: sparse_categorical_crossentropy
-- Since not all of our features are one-hot encoded
+    - Loss: sparse_categorical_crossentropy
+        - Since not all of our features are one-hot encoded
 
 
 ## Accuracy Comparison:
