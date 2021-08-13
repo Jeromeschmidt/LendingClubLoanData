@@ -24,7 +24,17 @@
 ## Project Structure:
 
 - Feature Engineering
-  - Separate data preparation for machine learning and deep learning methods
+    - Feature Engineering for both machine learning and deep learning methods:
+        - Removing NaN values and columns missing more than 30% of values
+        - Split date columns into 2 separate columns, one for year and one for month
+            - Encode months by month order
+        - Encode employment length by employment length
+        - Encode loan term by loan term
+        - Encode zip code by first 3 digits
+        - Scale numerical data
+    - Feature Engineering for only deep learning methods:
+        - One Hot Encoding for independent variables
+        - Label encode loan grades by specific grade
 
 - PCA
   - Performed PCA to reduce training time for machine learning methods
@@ -65,6 +75,8 @@ Loss: sparse_categorical_crossentropy
 | MLP Classifier | 0.765427649167277 |
 
 
+
+
 #### Deep Learning Model Performance:
 
 ![Neural Network Loss](/assets/images/nn_loss.png)
@@ -80,6 +92,6 @@ Since our Neural Network outperformed our tree based ML algorithms(~98.8% vs ~76
 
 Further improvements and things to look at:
 
-Different model structure
+- Different model structure
 
-Try SGD optimizer
+- Try SGD optimizer
