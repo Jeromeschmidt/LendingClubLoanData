@@ -51,6 +51,8 @@ Deep Learning Model Performance:
 
 ![Neural Network Loss](/assets/images/nn_loss.png)
 
+![Neural Network Accuracy](/assets/images/nn_accuracy.png)
+
 | Algorithm | Loss | Accuracy |
 | ----------- | ----------- | ----------- |
 | Neural Network | 0.04266935586929321 | 0.9847416281700134 |
