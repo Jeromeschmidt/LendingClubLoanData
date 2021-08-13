@@ -28,12 +28,14 @@
 
 - PCA
   - Perforned PCA to reduce training time for machine learning methods
-  
+
 - Machine Learning Model Performance:
 
 ## Accuracy:
 
 Machine Learning Model Performance:
+
+![Machine Learning Models Accuracy](/assets/images/ml_accuracy.png)
 
 | Algorithm | Accuracy |
 | ----------- | ----------- |
@@ -47,10 +49,10 @@ Machine Learning Model Performance:
 
 Deep Learning Model Performance:
 
+![Neural Network Loss](/assets/images/nn_loss.png)
+
 | Algorithm | Loss | Accuracy |
 | ----------- | ----------- | ----------- |
 | Neural Network | 0.04266935586929321 | 0.9847416281700134 |
 
 ## Results:
-
-
