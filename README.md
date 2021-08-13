@@ -51,7 +51,7 @@ Loss: sparse_categorical_crossentropy
 
 ## Accuracy Comparison:
 
-Machine Learning Model Performance:
+#### Machine Learning Model Accuracies:
 
 ![Machine Learning Models Accuracy](/assets/images/ml_accuracy.png)
 
@@ -65,7 +65,7 @@ Machine Learning Model Performance:
 | MLP Classifier | 0.765427649167277 |
 
 
-Deep Learning Model Performance:
+#### Deep Learning Model Performance:
 
 ![Neural Network Loss](/assets/images/nn_loss.png)
 
@@ -81,4 +81,5 @@ Since our Neural Network outperformed our tree based ML algorithms(~98.8% vs ~76
 Further improvements and things to look at:
 
 Different model structure
+
 Try SGD optimizer
