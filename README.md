@@ -9,25 +9,25 @@
   - Looking to classify high grade (A,B,C) vs low grade loans (D,E,F,G) instead of each individual grade for ML methods.
   - Predict specific grade(A,B,C,...) for Neural Networks method.
 
-- Next Improvements:
-  - Finish implementing TFX pipeline
-  - Improve Feature Engineering for ML data
-
 #### *Update Notes:*
 
 - Added Deep Neural Network with Keras.
 - Keras model predicts specific grade(A,B,C,...) instead of high grade vs. low grade. To do this with ML methods drastically increased training time.
-- Created seperate feature engineering process for Deep Learning model to optimize performance. Added One-hot encoding for non-ordinal variables
+- Created separate feature engineering process for Deep Learning model to optimize performance. Added One-hot encoding for non-ordinal variables
 - Kept similiar feature engineering process for Machine Learning methods to keep training time low.
+
+#### Next Improvements:
+- Finish implementing TFX pipeline
+- Improve Feature Engineering for ML data
 
 
 ## Project Structure:
 
 - Feature Engineering
-  - Seperate data preparation for machine learning and deep learning methods
+  - separate data preparation for machine learning and deep learning methods
 
 - PCA
-  - Perforned PCA to reduce training time for machine learning methods
+  - Performed PCA to reduce training time for machine learning methods
 
 - Machine Learning Model Performance:
 
@@ -58,3 +58,4 @@ Deep Learning Model Performance:
 | Neural Network | 0.04266935586929321 | 0.9847416281700134 |
 
 ## Results:
+Since our Neural Network outperformed our tree based ML algorithms(~98.6% vs ~76.4%), a neural network would be the most effective approach for this dataset. Also, the neural network classified specific graded where the ML methods only classified high vs low grade loans.
