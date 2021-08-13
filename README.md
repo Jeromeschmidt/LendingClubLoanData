@@ -59,7 +59,7 @@
 
 
 ## Metric Comparison:
-*Update Notes:* Additional metrics included in Google Colab.
+*Note:* Additional metrics included in Google Colab.
 
 #### Machine Learning Model Accuracies:
 
