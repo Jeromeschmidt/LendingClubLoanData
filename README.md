@@ -14,7 +14,7 @@
 - Added Deep Neural Network with Keras.
 - Keras model predicts specific grade(A,B,C,...) instead of high grade vs. low grade. To do this with ML methods drastically increased training time.
 - Created separate feature engineering process for Deep Learning model to optimize performance. Added One-hot encoding for non-ordinal variables
-- Kept similiar feature engineering process for Machine Learning methods to keep training time low.
+- Kept similar feature engineering process for Machine Learning methods to keep training time low.
 
 #### Next Improvements:
 - Finish implementing TFX pipeline
@@ -24,14 +24,32 @@
 ## Project Structure:
 
 - Feature Engineering
-  - separate data preparation for machine learning and deep learning methods
+  - Separate data preparation for machine learning and deep learning methods
 
 - PCA
   - Performed PCA to reduce training time for machine learning methods
 
-- Machine Learning Model Performance:
+- Machine Learning Models Included:
+    - K Neighbors Classifier
+    - Decision Tree
+    - SGD Classifier
+    - XGBoost
+    - Random Forest Classifier
+    - MLP Classifier
 
-## Accuracy:
+
+### Neural Network Design Choices:
+Activation Function: RELU
+- Fast training and not prone to vanishing gradients
+
+Optimizer: Adam
+- Fast optimizer to find local minimum
+
+Loss: sparse_categorical_crossentropy
+- Since not all of our features are one-hot encoded
+
+
+## Accuracy Comparison:
 
 Machine Learning Model Performance:
 
@@ -58,4 +76,9 @@ Deep Learning Model Performance:
 | Neural Network | 0.04266935586929321 | 0.9847416281700134 |
 
 ## Results:
-Since our Neural Network outperformed our tree based ML algorithms(~98.6% vs ~76.4%), a neural network would be the most effective approach for this dataset. Also, the neural network classified specific graded where the ML methods only classified high vs low grade loans.
+Since our Neural Network outperformed our tree based ML algorithms(~98.8% vs ~76.4%), a neural network would be the most effective approach for this dataset. Also, the neural network classified specific graded where the ML methods only classified high vs low grade loans.
+
+Further improvements and things to look at:
+
+Different model structure
+Try SGD optimizer
