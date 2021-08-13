@@ -10,7 +10,7 @@
   - Predict specific grade(A,B,C,...) for Neural Networks method.
 
 - Next Improvements:
-  - Implement TFX pipeline
+  - Finish implementing TFX pipeline
   - Improve Feature Engineering for ML data
 
 #### *Update Notes:*
